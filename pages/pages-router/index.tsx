@@ -1,14 +1,15 @@
-import { useSession, signIn, signOut } from "next-auth/react"
+import { signIn, signOut, useSession} from "next-auth/react"
 
 export default function Page(){
     return <>
-    <h2> Home </h2>
+    <h2> Custom page-router page </h2>
     <Account />
     </>
 }
 
 function Account(){
     const {data: session} = useSession();
+    console.debug('session=', session)
     if (session) {
         return (
             // const {user} = session;

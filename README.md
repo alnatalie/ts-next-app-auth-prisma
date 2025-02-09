@@ -1,0 +1,1 @@
+не забыть прописать в .env DATABASE_URL, AUTH_SECRET, NEXTAUTH_URL
