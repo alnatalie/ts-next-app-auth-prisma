@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={``}>
         <Header />
         <main>
-          <h1>App Router</h1>
+          <h1>⚡️App Router</h1>
         {children}
         </main>
       </body>
